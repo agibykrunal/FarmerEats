@@ -1,0 +1,29 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --primary: #D97B5A;
+  --primary-dark: #C06A48;
+  --primary-light: #F9EDE8;
+  --primary-lighter: #fdf6f3;
+  --text: #1C1C1E;
+  --text-muted: #8E8E93;
+  --text-light: #AEAEB2;
+  --border: #E5E5EA;
+  --bg: #F7F2EE;
+  --white: #FFFFFF;
+  --success: #34C759;
+  --font: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+  --radius: 14px;
+  --sidebar-w: 240px;
+}
+
+html, body, #root { height: 100%; width: 100%; }
+body { font-family: var(--font); background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; }
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes fadeIn { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
