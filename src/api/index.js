@@ -1,4 +1,4 @@
-//kdkkkckk
+//kdkkkck
 const BASE_URL = 'https://app.sooprs.com/api/2/';
 
 async function request(endpoint, method = 'POST', body = null) {
