@@ -1,4 +1,4 @@
-//ok it is at top of all  ss
+//ok it is at top of all  s
 import React, { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AuthWrapper, Logo, Button, Input, StatusMessage, BackButton } from '../components/UI';
