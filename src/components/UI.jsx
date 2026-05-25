@@ -1,4 +1,4 @@
-//ok it is at top of
+//ok it is at top o
 import React, { useState } from 'react';
 
 export function Button({ children, onClick, variant = 'primary', loading, style, ...rest }) {
