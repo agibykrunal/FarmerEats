@@ -1,4 +1,4 @@
-//ok it is at to
+//ok it is at t
 import React, { useState } from 'react';
 
 export function Button({ children, onClick, variant = 'primary', loading, style, ...rest }) {
