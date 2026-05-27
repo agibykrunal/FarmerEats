@@ -1,4 +1,4 @@
-//ok it is at top of 
+//ok it is at top of
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
